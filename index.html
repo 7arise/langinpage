@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>SkiiRentals</title>
+</head>
+<body>
+    <header class="header-bar">
+        <div class="logo-container">
+            <img class="logo-icon" alt="Ski Rentals logo" src="img/logo.webp" width="35px">
+            <h1 class="logo">SkiiRentals</h1>
+        </div>
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">Services</a>
+            <a href="">Pricing</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img class="fondo" src="img/bg.webp" alt="Gente esquiando">
+            <div class="hero-content">
+                <h1 class="titulo">
+                    Conquer the Slopes with the Best Gear
+                </h1>
+                <p>
+                    Premium ski and snowboard rentals, right on the mountain.
+                </p>
+                <a href="#Rent" class="btn">Rent Your Gear Now</a>
+            </div>
+        </section>
+        <section class="data">
+            <article class="services">
+                <h1 class="services-header">
+                    Our Services
+                </h1>
+                <div class="Equipment">
+                    <img class="logo" src="img/ski-svgrepo-com (1).svg" width="20px">
+                    <h2>
+                        Equipment Rental
+                    </h2>
+                    <p>
+                        Find the perfect skis or snowboard for your adventure
+                    </p>
+                </div>
+                <div class="Lessons">
+                    <img class="lessons-icon" src="img/class.svg" width="20px">
+                    <h2>
+                        Ski Lessons
+                    </h2>
+                    <p>
+                        Learn from the best instructors and master the mountain.
+                    </p>
+                </div>
+                <div class="Forfait">
+                    <img class="Forfait-icon" src="img/ticket.svg" width="20px">
+                    <h2>
+                        Forfait
+                    </h2>
+                    <p>
+                        Get your lift pass and ski without limits.
+                    </p>
+                </div>
+            </article>
+
+            <article class="pricing">
+
+                <div class="type">
+                    <header class="type-header" aria-hidden="true">
+                        <h3 id="plan-beginner" class="type-title">Beginner</h3>
+                    </header>
+                    <div class="type-price" aria-hidden="true">
+                        <span class="price-amount">$45</span>
+                        <span class="price-period">per day</span>
+                    </div>
+                    <div class="type-cta">
+                        <a class="btn" href="#select-beginner">Select Plan</a>
+                    </div>
+
+                    <ul class="type-features">
+                        <li><svg class="icon-check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Skis, boots, poles</li>
+                        <li><svg class="icon-check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Helmet</li>
+                        <li><svg class="icon-check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Damage waiver</li>
+                    </ul>
+                </div>
+
+                <div class="type popular">
+                    <div class="badge" aria-hidden="true">Most Popular</div>
+                    <header class="type-header" aria-hidden="true">
+                        <h3 id="plan-intermediate"  class="type-title">Intermediate</h3>
+                    </header>
+
+                    <div class="type-price" aria-hidden="true">
+                        <span class="price-amount">$60</span>
+                        <span class="price-period">per day</span>
+                    </div>
+
+                    <div class="type-cta">
+                        <a class="btn btn-primary" href="#select-intermediate">Select Plan</a>
+                    </div>
+
+                    <ul class="type-features">
+                        <li><svg class="icon-check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Performance skis, boots, poles</li>
+                        <li><svg class="icon-check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Helmet</li>
+                        <li><svg class="icon-check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Damage waiver</li>
+                    </ul>
+                </div>
+
+                <div class="type-header" aria-hidden="true">
+                    <header class="type-header" aria-hidden="true">
+                        <h3 id="plan-advanced" class="type-title">Advanced</h3>
+                    </header>
+                    <div class="type-price" aria-hidden="true">
+                        <span class="price-amount">$75</span>
+                        <span class="price-period">per day</span>
+                    </div>
+                    <div class="type-cta">
+                        <a class="btn" href="#select-advanced">Select Plan</a>
+                    </div>
+
+                    <ul class="type-features">
+                        <li><svg class="icon-check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Demo skis, boots, poles</li>
+                        <li><svg class="icon-check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Helmet</li>
+                        <li><svg class="icon-check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Damage waiver</li>
+                    </ul>
+                </div>
+                
+            </article>
+        </section>
+    </main>
+</body>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>© 2024 Ski Rentals. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+</html>
